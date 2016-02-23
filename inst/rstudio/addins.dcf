@@ -1,0 +1,14 @@
+Name: Insert Comment Header
+Description: Inserts comment header at the cursor position.
+Binding: insertCHAddin
+Interactive: false
+
+Name: Insert Pipe
+Description: Inserts dplyr pipe at the cursor position.
+Binding: insertPipeAddin
+Interactive: false
+
+Name: Insert copied address
+Description: Inserts converts backslashes to forward slashes for window addresses
+Binding: insertAddressAddin
+Interactive: false
