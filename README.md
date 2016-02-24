@@ -28,13 +28,13 @@ install_github('jachan1/addins')
 Addins
 -----------------
 
-### Insert Pipe
+#### Insert Pipe
 Inserts the pipe %>% 
 
-### Insert copied address
+#### Insert copied address
 In windows system address are given with '\' but R wants '/'. This converts and pastes a windows address to an R address.
 
-### Insert Comment Header
+#### Insert Comment Header
 Inserts a comment header for annotating code
 
 
