@@ -5,6 +5,6 @@
 #' @export
 
 fixCommas <- function() {
-  rstudioapi::insertText(gsub(" *, *", ", ", readClipboard()))
+  rstudioapi::insertText(gsub(" *, *", ", ", tmp$selection[[1]]$text))
 }
 
