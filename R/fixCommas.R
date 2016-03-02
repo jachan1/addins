@@ -1,11 +1,10 @@
-#' Insert \%>\%.
+#' Fix comma formatting
 #'
-#' Call this function as an addin to insert \code{ \%>\% } at the cursor position.
-#' helpful for using dplyr
+#' Call this function to format all commas selected with one space before and one after
 #' 
 #' @export
 
-insertAddressAddin <- function() {
+fixCommas <- function() {
   rstudioapi::insertText(gsub(" *, *", ", ", readClipboard()))
 }
 
