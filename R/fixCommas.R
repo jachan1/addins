@@ -5,8 +5,7 @@
 #' @export
 
 fixCommas <- function() {
-  require(rstudioapi)
-  seltxt <- getActiveDocumentContext()
+  seltxt <- rstudioapi::getActiveDocumentContext()
   rstudioapi::insertText(gsub(" *, *", ", ", seltxt$selection[[1]]$text))
 }
 
