@@ -5,6 +5,6 @@
 #' 
 #' @export
 
-addPAgebreak <- function() {
+addPagebreak <- function() {
   rstudioapi::insertText("<p style=\"page-break-before: always\">")
 }

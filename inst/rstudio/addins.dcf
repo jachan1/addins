@@ -17,3 +17,8 @@ Name: Fix comma spacing
 Description: Formats all commas so that there is a single space before and a single space afterwards
 Binding: fixCommas
 Interactive: false
+
+Name: Insert HTML Pagebreak
+Description: Inserts HTML Pagebreak for rmarkdown
+Binding: addPagebreak
+Interactive: false
