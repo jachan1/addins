@@ -37,4 +37,8 @@ In windows system address are given with '\' but R wants '/'. This converts and 
 #### Insert Comment Header
 Inserts a comment header for annotating code
 
+#### Fix commas
+select and string with commas and it will space commas appropriately. Made for correct lines such as c(1, 2,3,  4 ,5) to c(1, 2, 3, 4, 5). Other usage make cause issues.
 
+#### Insert HTML Pagebreak
+Inserts HTML pagebreak into script. Useful for rmarkdown. String used is: <p style="page-break-before: always">
