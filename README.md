@@ -22,7 +22,7 @@ devtools::install_github("rstudio/addinexamples")
 Then install this package from github. Three extra addins will then appear in your Addins dropdown menu. 
 
 ```r
-install_github('jachan1/addins')
+devtools::install_github('jachan1/addins')
 ```
 
 Addins
