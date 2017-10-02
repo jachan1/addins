@@ -22,3 +22,8 @@ Name: Insert HTML Pagebreak
 Description: Inserts HTML Pagebreak for rmarkdown
 Binding: addPagebreak
 Interactive: false
+
+Name: Make rmarkdown block quote
+Description: adds the rmarkdown blockquote prefix to each line
+Binding: mkdnBlockQuote
+Interactive: false
