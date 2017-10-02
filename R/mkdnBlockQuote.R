@@ -7,7 +7,7 @@
 mkdnBlockQuote <- function() {
   seltxt <- rstudioapi::getActiveDocumentContext()
   txt <- seltxt$selection[[1]]$text
-  bq_txt <- paste("> ", strsplit(tmp, "\n")[[1]], collapse="\n")
+  bq_txt <- paste("> ", strsplit(txt, "\n")[[1]], collapse="\n")
   rstudioapi::insertText(bq_txt)
 }
 
