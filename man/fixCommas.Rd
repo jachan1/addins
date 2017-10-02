@@ -9,4 +9,3 @@ fixCommas()
 \description{
 Call this function to format all commas selected with one space before and one after
 }
-

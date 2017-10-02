@@ -9,4 +9,3 @@ insertCHAddin()
 \description{
 Insert header comments
 }
-
